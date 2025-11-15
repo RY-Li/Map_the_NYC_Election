@@ -10,7 +10,7 @@ Newsrooms and many institutions release polished maps, but the underlying data a
 
 
 
-<h3>The `NYC 2025 General Election.ipynb` file</h3>
+<h3>The "NYC 2025 General Election.ipynb" file</h3>
 
 <b>PART 1: NYC Mayoral ENR scrape</b>
 
