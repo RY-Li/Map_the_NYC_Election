@@ -1,6 +1,6 @@
 # map-nyc-election
 
-<h2>Map the NYC 2025 Primary & General Election<br>- Open-Source NYC Mayoral Real-Time Election Night Results Mapping at the Election District (ED) Level</h2>
+<h2>Map the NYC 2025 Primary & General Mayoral Election<br>- Open-Source NYC Mayoral Real-Time Election Night Results Mapping at the Election District (ED) Level</h2>
 
 <h3>About</h3>
 
@@ -12,7 +12,7 @@ Newsrooms and many institutions release polished maps, but the underlying data a
 <br>
 
 
-<h3>1). The <i>"NYC 2025 General Election Mayoral UENR/NYC 2025 General Election.ipynb"</i> file:</h3>
+<h3>1). The <i>"general-mayoral-enr/2025-general.ipynb"</i> file:</h3>
 
 <b>PART 1: NYC Mayoral ENR scrape</b>
 
@@ -35,15 +35,15 @@ The scraper are also future-proof so that they will work the same for future ele
 <br>
 
 
-<h3>2). The <i>"NYC 2025 Primary Election Mayoral UENR (Web Archive)/NYC 2025 Primary Election (Web Archive).ipynb"</i> file:</h3>
+<h3>2). The <i>"primary-mayoral-enr-web-archive/2025-primary-web-archive.ipynb"</i> file:</h3>
 
-Similar to&nbsp;&nbsp;<i>"NYC 2025 General Election.ipynb"</i>&nbsp;, except used Web Archive (Wayback Machine - Internet Archive https://web.archive.org/) to retrieve the primary election data.
+Similar to&nbsp;&nbsp;<i>"general-mayoral-enr/2025-general.ipynb"</i>&nbsp;, except used Web Archive (Wayback Machine - Internet Archive https://web.archive.org/) to retrieve the primary election data.
 
 
 <br>
 
 
-<h3>3). The <i>"NYC 2025 Primary vs General Election Mayoral UENR/NYC 2025 Primary vs General Election.ipynb"</i> file:</h3>
+<h3>3). The <i>"primary-vs-general-mayoral-enr/2025-primary-vs-general.ipynb"</i> file:</h3>
 
 Create a side-by-side map comparing <b>primary and general election results</b> for <b>Mamdani versus Cuomo</b> to visualize spatial shifts for the same top candidates.
 <br>
