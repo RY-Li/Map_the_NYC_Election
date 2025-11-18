@@ -1,0 +1,80 @@
+
+
+/* Color Notes */
+/* NYU Violet color #57068c */
+/* Ultra Violet color #8900e1 */
+:root{
+    --gr-white: #f2f2f2; /* light grey */
+    --bg-soft: #f2eefa;
+    --bg-soft-2: #eee5ff;
+    --bg-soft-3: #eeccff;
+    --bg-soft-4: #8e44ad; /* alternative purple */
+    --uviolet: #8900e1;
+    --violet: #57068c;
+    --ink: #333; /* dark grey */
+}
+
+
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Use border-box model for consistent sizing */
+    font-family: 'Open Sans', sans-serif; /* Use a sans-serif font for better readability */
+    font-size: 18px; /* Set base font size */
+    font-weight: 400; /* Normal weight for body text */
+    line-height: 1.75; /* Set line height for better readability */
+    background-color: var(--gr-white); /* Light grey background for the body */
+    color: var(--ink); /* Dark grey text color */
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+
+/* General Page Styling */
+body {
+    display: flex;
+    flex-direction: column; /* Use flexbox to structure the layout */
+}
+
+main {
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Allow the main content to grow and take up available space */
+}
+
+
+.map-iframe {
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+    border:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    z-index:999999;
+}
+
+/* Floating controls that sit above the full-screen map iframe */
+.map-controls{
+    position:fixed;
+    top:14px; /* small gap from top */
+    left:52px; /* leave some margin from left edge */
+    z-index:1000000; /* above the iframe */
+    display:flex;
+    align-items:center;
+}
+
+.map-select{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding:8px 12px;
+    border-radius:6px;
+    border:1px solid rgba(0,0,0,0.1);
+    background-color: var(--gr-white);
+    color: var(--ink);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    backdrop-filter: blur(4px);
+}
+
+.visually-hidden{position:absolute !important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
