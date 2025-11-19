@@ -48,6 +48,7 @@ Similar to&nbsp;&nbsp;<i>"general-mayoral-enr/2025-general.ipynb"</i>&nbsp;, exc
 To visualize spatial shifts for the same top candidates for the primary and general election:
 1. Create a side-by-side map comparing <b>primary versus general election results</b> for <b>Mamdani and Cuomo</b>
 2. Create a map for <b>two-way vote shift from primary to general election</b> in percentage points for <b>Mamdani and Cuomo</b>
+3. Add <b>subway routes</b> to the maps as a reference (did you find some patterns?)
 <br>
 <br>
 <b>Go to https://r-li.com/map-nyc-election to view the map.</b>
@@ -58,10 +59,15 @@ To visualize spatial shifts for the same top candidates for the primary and gene
 <img src="readme_pics/1.png" alt="Preview 1">
 <br>
 <img src="readme_pics/2.png" alt="Preview 2">
-<h4>Vote Shift</h4>
-<img src="readme_pics/3.png" alt="Preview 3">
 <br>
+<img src="readme_pics/3.png" alt="Preview 3">
+<h4>Vote Shift</h4>
 <img src="readme_pics/4.png" alt="Preview 4">
+<br>
+<img src="readme_pics/5.png" alt="Preview 5">
+<br>
+<img src="readme_pics/6.png" alt="Preview 6">
+
 
 
 <br>
