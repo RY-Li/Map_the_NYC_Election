@@ -4,9 +4,15 @@
 
 <h3>About</h3>
 
-This project provided an open-source pipeline and interactive maps that publish real-time election night results from the 2025 NYC mayoral primary and general election at the most granular Election District (ED) level.
+This project offers an open-source pipeline and interactive maps that publish real-time election night results from the 2025 NYC primary and general mayoral election at the most detailed Election District (ED) level.
 
-Newsrooms and many institutions release polished maps, but the underlying data and code are usually closed. That makes it hard for students, journalists, and community groups to verify results, join their own data, or try new analyses. This project fixes that by putting everything—scrapers, processing scripts, and the map—on GitHub under a permissive license.
+Newsrooms and many institutions release polished maps, but the underlying data and code are often not openly available. This makes it hard for students, journalists, and community groups to verify results, integrate their own data, or explore new analyses. This project addresses that by making everything—scrapers, processing scripts, and the map—available on GitHub under a permissive license.
+
+The pipeline extracts data from the NYC Board of Elections ENR (Election Night Results) tables in HTML, standardizes candidate fields across party lines, calculates ED-level totals and percentages, and exports tidy CSV files. It then joins results with the NYC Department of City Planning's clipped ED boundary data to create a GeoPackage, enabling direct use in GIS tools. The accompanying web map provides precinct-level tooltips and easy downloads so others can combine results with open data sets (Census, housing, transit, environmental layers) and explore their own questions. The scripts are designed to be future-proof so that they can be reused for future elections—users simply need to change the election ID.
+
+Since <b>Zohran Mamdani</b> and <b>Andrew Cuomo</b> were the top two candidates in both the <b>Democratic primary</b> and the <b>general</b> mayoral election, maps were created to illustrate spatial continuity and to compare changes in election results as examples of this pipeline's capabilities. This project applied the same pipeline to both races to produce the map titled "<b>Map the Election: Mamdani vs. Cuomo - Primary vs. General</b>," which displays shifts in support side-by-side. An additional map, titled "<b>Primary to General Election Two-Way Vote Share Shift in Percentage Points</b>," was generated through analysis to quantify the voting changes. Subway routes were also added to the maps as an optional reference layer.
+
+The goal is simple: to make high-resolution election data accessible and remixable so more people can conduct independent, transparent analyses.
 
 
 <br>
